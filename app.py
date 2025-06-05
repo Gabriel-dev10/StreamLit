@@ -27,7 +27,7 @@ if arquivo is not None:
         )
     st.sidebar.success("Arquivo carregado e grafo gerado com sucesso! ✅")
 
-    # Checar latência alta por torre
+   
     LIMITE_LATENCIA = 30 
     latencia_torres = {}
 
