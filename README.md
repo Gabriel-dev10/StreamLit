@@ -51,24 +51,10 @@ Acesse o app no navegador pelo link que será exibido (geralmente http://localho
 
 🗂️ Estrutura do Projeto
 
-├── app.py                # Código principal do Streamlit
-├── exemplos/             # Exemplos de arquivos JSON
-├── relatorios/           # Relatórios gerados (CSV, PDF)
-├── README.md             # Este arquivo
-
-📄 Exemplo de Entrada (JSON)
-
-{
-  "nodes": ["TORRE_A", "TORRE_B", "TORRE_C", "TORRE_D", "TORRE_E"],
-  "edges": [
-    {"source": "TORRE_A", "target": "TORRE_B", "latencia": 10},
-    {"source": "TORRE_A", "target": "TORRE_C", "latencia": 15},
-    {"source": "TORRE_B", "target": "TORRE_D", "latencia": 99},
-    {"source": "TORRE_C", "target": "TORRE_D", "latencia": 10},
-    {"source": "TORRE_D", "target": "TORRE_E", "latencia": 5},
-    {"source": "TORRE_B", "target": "TORRE_E", "latencia": 20}
-  ]
-}
+├── app.py            
+├── arquivo.json/             
+├── relatorios/           
+├── README.md             
 
 🚀 Futuras Melhorias
 Implementação de rotas dinâmicas com ajuste em tempo real.
